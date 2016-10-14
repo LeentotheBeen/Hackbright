@@ -5,7 +5,7 @@
 
 bill = raw_input("How much was your bill?")
 
-tip = bill * .18
+tip = float(bill) * .18
 
 total_bill = bill + tip
 
